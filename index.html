@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Matei Ciofu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="dark">
+<header>
+  <h1>Matei Ciofu</h1>
+  <nav>
+    <a href="#about">Chi Sono</a>
+    <a href="#skills">Competenze</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contatti</a>
+  </nav>
+</header>
+
+<section id="about" class="about fade-in">
+  <h2>Chi Sono</h2>
+  <p>
+    Ciao, sono Matei! Sono un giovane sviluppatore con una grande passione per tutto ciò che è codice. Fin da subito mi ha affascinato la possibilità di trasformare idee in qualcosa di concreto e funzionante. Adoro esplorare nuove tecnologie e capire come funzionano le cose "sotto il cofano".
+  </p>
+  <p>
+    La sicurezza informatica è un'area che mi incuriosisce particolarmente, e mi diverto a creare piccoli strumenti per mettermi alla prova e imparare sul campo. Vedo ogni problema come un puzzle da risolvere e non vedo l'ora di affrontare sfide sempre più complesse.
+  </p>
+  <p>
+    Sono all'inizio del mio percorso professionale, ma porto con me un bagaglio di entusiasmo e una forte determinazione a crescere. Sono alla ricerca di opportunità per imparare da professionisti esperti e contribuire con la mia energia a progetti stimolanti.
+  </p>
+</section>
+
+<section id="skills" class="fade-in">
+  <h2>Competenze</h2>
+  <ul id="skills-list"></ul>
+</section>
+
+<section id="portfolio" class="fade-in">
+  <h2>Portfolio</h2>
+  <div class="portfolio" id="portfolio-container"></div>
+</section>
+
+<section id="contact" class="contact fade-in">
+  <h2>Contattami</h2>
+  <form id="contact-form" onsubmit="handleSubmit(event)">
+    <label for="user_name" class="sr-only">Il tuo nome</label>
+    <input type="text" id="user_name" name="user_name" placeholder="Il tuo nome" required />
+    <label for="user_email" class="sr-only">La tua email</label>
+    <input type="email" id="user_email" name="user_email" placeholder="La tua email" required />
+    <label for="message" class="sr-only">Il tuo messaggio</label>
+    <textarea id="message" name="message" rows="5" placeholder="Il tuo messaggio" required></textarea>
+    <button type="submit">Invia</button>
+    <div id="form-status"></div>
+  </form>
+</section>
+
+<footer class="fade-in">
+  <div class="social-links">
+    <a href="https://github.com/Matei-Ciofu" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/matei-ciofu-1b3a62347" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <p>&copy; <span id="current-year"></span> Matei Ciofu. Tutti i diritti riservati.</p>
+</footer>
+
+
+<script src="config.js"></script>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
