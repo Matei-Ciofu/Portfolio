@@ -18,6 +18,3 @@ Questo è il repository per il mio portfolio personale, un sito web statico e re
 - **Header a Scomparsa:** L'header si nasconde quando si scorre verso il basso e riappare quando si scorre verso l'alto per massimizzare lo spazio visibile.
 - **Form di Contatto Funzionante:** Un form di contatto che invia email direttamente alla mia casella di posta utilizzando EmailJS.
 
-## Setup
-
-Essendo un sito web statico, non è richiesto un processo di build complesso. È sufficiente aprire il file `index.html` in un browser web. Per la funzionalità del form di contatto, è necessario configurare il proprio account EmailJS e inserire le proprie chiavi in `index.html` e `script.js`.
