@@ -3,12 +3,14 @@ const skills = [
   { name: "HTML", icon: "fab fa-html5", color: "#E34F26" },
   { name: "CSS", icon: "fab fa-css3-alt", color: "#1572B6" },
   { name: "JavaScript", icon: "fab fa-js-square", color: "#F7DF1E", textColor: "#000" },
+  { name: "React", icon: "fab fa-react", color: "#61DAFB", textColor: "#000" },
+  { name: "Node.js", icon: "fab fa-node-js", color: "#339933" },
   { name: "Java", icon: "fab fa-java", color: "#007396" },
   { name: "Python", icon: "fab fa-python", color: "#3776AB" },
   { name: "C", icon: "fas fa-code", color: "#A8B9CC", textColor: "#000" },
   { name: "Spring Boot", icon: "fas fa-leaf", color: "#6DB33F" },
   { name: "SQL", icon: "fas fa-database", color: "#336791" },
-  { name: "PHP", icon: "fab fa-php", color: "#777BB4" }
+   { name: "PHP", icon: "fab fa-php", color: "#777BB4" }
 ];
 let projects = [
   {
